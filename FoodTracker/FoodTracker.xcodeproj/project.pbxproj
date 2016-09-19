@@ -17,6 +17,7 @@
 		30CC3C021D8B197E00D390E5 /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CC3C011D8B197E00D390E5 /* Meal.swift */; };
 		30CC3C0A1D8B409600D390E5 /* FoodTrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CC3C091D8B409600D390E5 /* FoodTrackerTests.swift */; };
 		30CC3C121D8B4C8500D390E5 /* MealTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30CC3C111D8B4C8500D390E5 /* MealTableViewController.swift */; };
+		30FEBCC21D9054A700336121 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 30FEBCC11D9054A700336121 /* Default-568h@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		30CC3C091D8B409600D390E5 /* FoodTrackerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTrackerTests.swift; sourceTree = "<group>"; };
 		30CC3C0B1D8B409600D390E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		30CC3C111D8B4C8500D390E5 /* MealTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MealTableViewController.swift; sourceTree = "<group>"; };
+		30FEBCC11D9054A700336121 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 		308C01B01D89ECE80075951A = {
 			isa = PBXGroup;
 			children = (
+				30FEBCC11D9054A700336121 /* Default-568h@2x.png */,
 				308C01BB1D89ECE80075951A /* FoodTracker */,
 				30CC3C081D8B409600D390E5 /* FoodTrackerTests */,
 				308C01BA1D89ECE80075951A /* Products */,
@@ -153,16 +156,18 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = "Rasheda Babatunde";
 				TargetAttributes = {
 					308C01B81D89ECE80075951A = {
 						CreatedOnToolsVersion = 7.3.1;
 						DevelopmentTeam = 3AG3YHAKP2;
+						LastSwiftMigration = 0800;
 					};
 					30CC3C061D8B409600D390E5 = {
 						CreatedOnToolsVersion = 7.3.1;
 						DevelopmentTeam = 3AG3YHAKP2;
+						LastSwiftMigration = 0800;
 						TestTargetID = 308C01B81D89ECE80075951A;
 					};
 				};
@@ -192,6 +197,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				308C01C71D89ECE80075951A /* LaunchScreen.storyboard in Resources */,
+				30FEBCC21D9054A700336121 /* Default-568h@2x.png in Resources */,
 				308C01C41D89ECE80075951A /* Assets.xcassets in Resources */,
 				308C01C21D89ECE80075951A /* Main.storyboard in Resources */,
 			);
@@ -272,8 +278,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -318,8 +326,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -338,6 +348,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
@@ -351,6 +362,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = test.strings.FoodTracker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -362,6 +374,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = test.strings.FoodTracker;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -373,6 +386,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = test.strings.FoodTrackerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FoodTracker.app/FoodTracker";
 			};
 			name = Debug;
@@ -385,6 +399,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = test.strings.FoodTrackerTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FoodTracker.app/FoodTracker";
 			};
 			name = Release;
